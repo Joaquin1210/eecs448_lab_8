@@ -1,0 +1,45 @@
+body
+{
+    background-color: lightblue;
+    color: #f5f1ed;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://wallpaperaccess.com/full/1567665.png);
+}
+
+p
+{
+    color: white;
+    font-size: 18;
+}
+
+h1
+{
+    background-color: seashell;
+    color: rgb(41, 29, 3);
+    font-size: 30;
+}
+
+h2
+{
+    background-color: seashell;
+    color: rgb(41, 29, 3);
+    font-size: 24;
+}
+
+h3
+{
+    background-color: seashell;
+    color: rgb(41, 29, 3);
+    font-size: 24;
+}
+
+a
+{
+    color: whitesmoke;
+}
+
+a:hover
+{
+    background-color: white;
+    color: blue;
+}

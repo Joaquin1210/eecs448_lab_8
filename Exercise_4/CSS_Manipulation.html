@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> CSS Manipulation  </title>
+<script type="text/javascript" src="css_manipulate.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Dummy Text</h1>
+    </center>
+    <p id="dummy">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type 
+        specimen book. It has survived not only five centuries, but also the leap into 
+        electronic typesetting, remaining essentially unchanged. It was popularised in 
+        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.
+    </p>
+
+    Note, the rgb values to be inputed are in format [0-255]
+    <h2>Border:</h2>
+    red value:
+    <input type="text" id="redval"><br>
+    green value:
+    <input type="text" id="greenval"><br>
+    blue value:
+    <input type="text" id="blueval"><br>
+    width:
+    <input type="number" id="borderW">
+
+    <h3>Background Color</h3>
+    red value:
+    <input type="integer" id="redvalBack"><br>
+    green value:
+    <input type="integer" id="greenvalBack"><br>
+    blue value:
+    <input type="integer" id="bluevalBack"><br>
+
+<button type="button" id="changeBtn" onclick="change()">CHANGE COLORS</button>
+
+</body>
+</html>
